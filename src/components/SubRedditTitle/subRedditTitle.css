@@ -1,15 +1,10 @@
-/*.moving-string {*/
-/*    position: relative;*/
-/*    display: inline;*/
-/*}*/
-
-.reddit-link {
+.subreddit-title {
     text-decoration: none;
     display: inline;
     color: #323232;
 }
 
-.reddit-link--active {
+.subreddit-title--active {
     padding: 5px;
     border-radius: 5px;
     background-color: #008b8b;

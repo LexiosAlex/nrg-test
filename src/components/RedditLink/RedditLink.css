@@ -1,0 +1,10 @@
+.reddit-link {
+    color: #09d3ac;
+    font-weight: 500;
+    width: 400px;
+    padding-left: 30px;
+}
+
+.reddit-link--error {
+    color: red;
+}

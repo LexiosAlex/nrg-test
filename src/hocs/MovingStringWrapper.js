@@ -21,6 +21,7 @@ function MovingStringWrapper(Component) {
       this.setState({
         isMoving: true
       });
+
       const { containerRef } = this.props;
       const leftBorder = 0;
       const moveSpeed = 1;
@@ -58,12 +59,13 @@ function MovingStringWrapper(Component) {
       this.setState({
         isMoving: false
       });
-      clearInterval(this.stringInterval);
+
+        clearInterval(this.stringInterval);
     };
 
-
     render() {
-      const {cordsY} = this.props;
+      const { cordsY } = this.props;
+
       return (
         <div
           ref={this.elementRef}
@@ -71,7 +73,7 @@ function MovingStringWrapper(Component) {
             position: "absolute",
             display: "inline",
             left: this.state.cordX,
-            top: cordsY,
+            top: cordsY
           }}
         >
           <Component
